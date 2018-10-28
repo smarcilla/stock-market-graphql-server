@@ -1,0 +1,29 @@
+{
+  "name": "stock-market-graphql-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint",
+    "prestart": "eslint .",
+    "prettier": "prettier --write src/**/*.js"
+  },
+  "keywords": [
+    "graphql"
+  ],
+  "author": "Sergio Marcilla",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-datasource-rest": "^0.1.5",
+    "apollo-server": "^2.1.0",
+    "graphql": "^14.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.8.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "jest": "^23.6.0",
+    "prettier": "^1.14.3"
+  }
+}
